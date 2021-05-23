@@ -1,6 +1,6 @@
 .react-tel-input {
   position: relative;
-  width: 200px;
+  width: 100%;
 }
 .react-tel-input .ad {
   background-position: -16px 0;
@@ -714,18 +714,13 @@
   margin-bottom: 0 !important;
   padding-left: 44px;
   margin-left: 0;
-  background: #ffffff;
-  border: 1px solid #cacaca;
-  border-radius: 3px;
-  box-shadow: 0 1px 2px #e3e3e3 inset;
-  line-height: 25px;
-  height: 28px;
+  height: 34px;
   width: 100%;
 }
 .react-tel-input input[type='text']:focus,
 .react-tel-input input[type='tel']:focus {
-  border-color: #42bdff;
-  border-left-color: #cacaca;
+  outline: none;
+  outline: 1px solid #0EA9CB;
 }
 .react-tel-input input[type='text'].invalid-number,
 .react-tel-input input[type='tel'].invalid-number {
@@ -778,7 +773,7 @@
   z-index: 13;
   position: relative;
   width: 38px;
-  height: 26px;
+  height: 32px;
   padding: 0 0 0 8px;
   border-radius: 3px 0 0 3px;
 }
